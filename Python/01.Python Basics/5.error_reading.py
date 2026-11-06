@@ -20,6 +20,11 @@ Types of error
 Errors are normal and useful. They tell you exactly where the problem is.
 """
 
+print("FIX NameError")
+
+name = "Iqra"
+print(name)
+
 
 #TypeError: 
 #print("5" + 5)
@@ -33,6 +38,10 @@ TypeError: can only concatenate str (not "int") to str
 
 """
 
+print("FIX TypeError")
+print(5+5)
+print("5"+"5")
+
 # SyntaxError:
 
 """print("hello)
@@ -40,3 +49,6 @@ TypeError: can only concatenate str (not "int") to str
       print("hello)
           ^
 SyntaxError: unterminated string literal (detected at line 38)"""
+
+print("FIX SyntaxError")
+print("Hello") # we forgot the quation mark

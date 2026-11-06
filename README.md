@@ -5,10 +5,10 @@ Starting with Python fundamentals, then SQL, pipelines and PySpark.
 
 ## Progress
 
-| Day | Topic | Status |
-|-----|-------|--------|
-| 1 | Setup, print, variables, types, arithmetic | In progress |
+| # | Topic | Status |
+|---|-------|--------|
+| 1 | Setup, print, variables, types, arithmetic | Done |
 
 ## Structure
 
-- `Python/Basic/`: Day 1 files
+- `Python/01.Python Basics/`: files for row 1
