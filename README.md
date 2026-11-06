@@ -12,3 +12,4 @@ Starting with Python fundamentals, then SQL, pipelines and PySpark.
 ## Structure
 
 - `Python/01.Python Basics/`: files for row 1
+- 
