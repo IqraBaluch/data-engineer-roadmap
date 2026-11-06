@@ -35,8 +35,8 @@ TypeError: can only concatenate str (not "int") to str
 
 # SyntaxError:
 
-print("hello)
+"""print("hello)
 
       print("hello)
           ^
-SyntaxError: unterminated string literal (detected at line 38)
+SyntaxError: unterminated string literal (detected at line 38)"""

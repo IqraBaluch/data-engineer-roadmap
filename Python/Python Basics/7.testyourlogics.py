@@ -53,16 +53,3 @@ print(2**10) # 1024
 print(10/4) # 2.5
 print(10//4) # 2
 print(-10 % 3)
-
-# SWAP
-
-a = 5
-b = 9
-temp = a
-print("a: ", a, "b: ", b)
-
-a = b
-b = temp
-
-print("a",a)
-print("b",b)
