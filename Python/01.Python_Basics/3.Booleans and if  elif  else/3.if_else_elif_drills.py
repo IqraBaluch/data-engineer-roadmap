@@ -66,3 +66,62 @@ elif b >= c:
     print("b",b)
 else:
     print("c",c)
+
+# Drill 5: Leap year
+#A year is a leap year if it is divisible by 4, but not by 100, 
+# unless it is also divisible by 400. Print Leap or Not leap.
+#Test: 2024 → Leap, 1900 → Not leap, 2000 → Leap, 2023 → Not leap.
+
+year = 2023
+
+
+if  (year % 4 == 0 and year % 100 != 0) or (year % 400 ==0):
+    print("Leap year")
+else:
+    print("Not leap")
+
+
+# Drill 6: Password check
+#A password is valid if its length is at least 8 
+# and its first character is a digit. Print Valid or Invalid.
+
+password = "bc"
+
+if len(password) >= 8:
+    p = password[0].isdigit()
+    if p:
+        print("Valid")
+    else:
+        print("Invalid")
+else:
+    print("Invalid")
+
+
+
+#Drill 7: FizzBuzz (one number)
+#For one number n: print FizzBuzz if divisible by both 3 and 5, 
+# Fizz if divisible by 3, Buzz if divisible by 5, otherwise print the number.
+
+n = 7
+
+if n % 3 == 0 and n % 5 == 0:
+    print("FizzBuzz")
+elif n % 3 == 0:
+    print("Fizz")
+elif n % 5 == 0:
+    print("Buzz")
+else:
+    print(n)
+
+# Drill 8: Valid triangle
+#Three sides a, b and c make a triangle only if the sum of any two sides 
+# is greater than the third. Print Valid or Invalid.
+
+a = 3
+b = 4
+c = 5
+
+if (a + b > c) and (a+c > b) and (b+c>a):
+    print("Valid")
+else:
+    print("Invalid")
