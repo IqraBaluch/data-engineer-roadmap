@@ -8,8 +8,10 @@ Starting with Python fundamentals, then SQL, pipelines and PySpark.
 | # | Topic | Status |
 |---|-------|--------|
 | 1 | Setup, print, variables, types, arithmetic | Done |
+| 2 | Strings: indexing, slicing, methods, f-strings | Done |
+| 3 | Booleans, if / elif / else | In progress |
 
 ## Structure
 
-- `Python/01.Python Basics/`: files for row 1
-- 
+- `Python/01.Python_Basics/`: files for rows 1, 2 and 3
+ 
