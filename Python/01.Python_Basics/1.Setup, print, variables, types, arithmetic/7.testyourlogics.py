@@ -53,3 +53,12 @@ print(2**10) # 1024
 print(10/4) # 2.5
 print(10//4) # 2
 print(-10 % 3)
+
+print("TEST THE BELOW")
+print(-7 // 2)
+print(-7 % 3)
+print(-10 // 3)
+print(-10 % 3)
+print(2 + 3 * 4 ** 2)
+x = 29 
+print(x // 10, x % 10)

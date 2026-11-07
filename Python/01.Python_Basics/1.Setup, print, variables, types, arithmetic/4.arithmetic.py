@@ -2,7 +2,7 @@ print(7 + 2)     # 9
 print(7 - 2)     # 5
 print(7 * 2)     # 14
 print(7 / 2)     # 3.5   always gives a float
-print(7 // 2)    # 3     floor division: drops the decimal part
+print(7 // 2)    # 3     integer division: drops the decimal part and gives integer
 print(7 % 2)     # 1     remainder
 print(7 ** 2)    # 49    power
 
