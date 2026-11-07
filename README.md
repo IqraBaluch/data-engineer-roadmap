@@ -20,7 +20,7 @@
 |:-:|-------|:------:|
 | 1 | Setup, print, variables, types, arithmetic | ✅ Done |
 | 2 | Strings: indexing, slicing, methods, f-strings | ✅ Done |
-| 3 | Booleans, if / elif / else | 🔄 In progress |
+| 3 | Booleans, if / elif / else | 🔄 Done |
 | 4 | Functions | ⏭️ Next |
 | 5 | Loops: for, while, break, continue | ⏳ Planned |
 | 6 | Lists | ⏳ Planned |
