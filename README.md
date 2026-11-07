@@ -9,7 +9,7 @@ Starting with Python fundamentals, then SQL, pipelines and PySpark.
 |---|-------|--------|
 | 1 | Setup, print, variables, types, arithmetic | Done |
 | 2 | Strings: indexing, slicing, methods, f-strings | Done |
-| 3 | Booleans, if / elif / else | In progress |
+| 3 | Booleans, if / elif / else | Done |
 
 ## Structure
 
