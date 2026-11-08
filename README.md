@@ -20,9 +20,9 @@
 |:-:|-------|:------:|
 | 1 | Setup, print, variables, types, arithmetic | ✅ Done |
 | 2 | Strings: indexing, slicing, methods, f-strings | ✅ Done |
-| 3 | Booleans, if / elif / else | 🔄 Done |
-| 4 | Functions | ⏭️ Next |
-| 5 | Loops: for, while, break, continue | ⏳ Planned |
+| 3 | Booleans, if / elif / else | ✅ Done |
+| 4 | Functions: return, defaults, scope, assert tests | ✅ Done |
+| 5 | Loops: for, while, break, continue | ⏭️ Next |
 | 6 | Lists | ⏳ Planned |
 
 More topics follow: tuples, dictionaries, sets, comprehensions, `collections`, Big-O and hash-map patterns.
