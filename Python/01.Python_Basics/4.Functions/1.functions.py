@@ -176,3 +176,34 @@ def grade(score):
 print(grade(95))
 print(grade(75))
 print(grade(40))
+
+def get_discount_price(price, discount=10):
+    return price - price * discount / 100
+
+print(get_discount_price(200, 25))            # by position
+print(get_discount_price(price=200, discount=25))   # by keyword
+print(get_discount_price(discount=25, price=200))   # order doesn't matter now
+
+
+
+"""
+
+Rule of thumb:
+
+A function can read outer variables.
+Assigning to a name inside a function creates a local variable.
+Local variables disappear when the function ends.
+
+"""
+
+def show():
+    print(y)
+
+y = 5
+show()
+
+def make_local():
+    z = 7
+
+make_local()
+print(z)
