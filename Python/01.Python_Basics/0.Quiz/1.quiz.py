@@ -83,3 +83,64 @@ print(name_initializer())
 assert name_initializer("Iqra") == 'I'
 assert name_initializer("Anwar Baloch") == 'AB'
 assert name_initializer('tell me whats') == 'TMW'
+
+
+# list and for loop with string function title() 
+names = ["iQra", "anwar", "baloch"]
+
+letters = ""
+for name in names:
+    letters +=name[0].title()
+print(letters)
+
+
+# list and for loop with string function upper()
+names = ["iQra", "anwar", "baloch"]
+
+letters = ""
+for name in names:
+    letters +=name[0]
+print(letters.upper())
+
+def name_initals(name):
+    letter = ""
+    names = name.split()
+    for name in names:
+        letter += name[0]
+    return letter.upper()
+
+
+print(name_initals("iqra anwar baloch data engineer"))
+# checking if function works accordingly
+assert name_initals('iqra Anwar') == 'IA'
+assert name_initals("Iqra") == "I"
+assert name_initals("Anwar Baloch") == "AB"
+assert name_initals("tell me whats") == "TMW"
+assert name_initals("Ali Hassan Raza Khan") == "AHRK"
+assert name_initals("") == ""
+
+# Question 4 
+
+# “Write a function that tells me whether a year is a leap year.”
+# year = 2021
+# if (year % 4 == 0 or year % 100 == 0) or(year % 400 == 0):
+#     print("leap")
+# else:
+#     print("not leap")
+
+def leap_year(year):
+
+    if (year % 4 ==0 and year % 100 !=0) or (year % 400 == 0):
+        return True
+    else:
+        return False
+
+print(leap_year(1900))
+
+assert leap_year(1900) == False
+assert leap_year(2024) == True
+assert leap_year(2029) == False
+assert leap_year(2024) == True
+assert leap_year(2023) == False
+assert leap_year(1900) == False
+assert leap_year(2000) == True
