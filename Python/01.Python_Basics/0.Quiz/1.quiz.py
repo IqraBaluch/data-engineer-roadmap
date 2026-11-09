@@ -12,14 +12,6 @@ State complexity (time and space), once we’ve covered it.
 # Question 1 “Someone gives you a number of minutes, like 500. Write a function that returns 
 # how many hours and minutes that is. For 500 it should give 8 hours and 20 minutes.”
 
-# def hours_and_minutes_counter(n):
-
-#     for num in n:
-#         minutes = num%60
-#         hours = minutes - n
-#     return minutes, hours % 60
-# print(hours_and_minutes_counter(500))
-
 def hours_and_minutes_counter(n):
     # gives the left over minutes
     minutes = n % 60
@@ -59,23 +51,6 @@ assert age_next_year("51") == 52
 # Question 3: 
 # “Write a function that takes a full name like ' iqra ANWAR ' 
 # and returns the initials in capitals, like 'IA'.”
-# def name_initials(name='   iqra Anwar baloch   '):
-#     # title will conver
-#     name_t = name.title()
-#     #converts string into list so taht we can use indezing to get initials
-#     name_t = name_t.split()
-#     print(len(name_t))
-#     if len(name) == 3:
-#         # indexing to get 1st and second words 1st chatacters 
-#         name_t = name_t[0][0] + name_t[1][0]  + name_t[2][0]
-#         print(name_t)
-#         return name_t
-  
-    # else:
-    #     print(" name can be only first name and first and last name and first middle and last name.")
-
-#     return name_t
-# print(name_initials())
 
 
 def name_initializer(name= 'anwar '):
