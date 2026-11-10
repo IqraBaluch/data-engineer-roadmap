@@ -22,8 +22,8 @@
 | 2 | Strings: indexing, slicing, methods, f-strings | ✅ Done |
 | 3 | Booleans, if / elif / else | ✅ Done |
 | 4 | Functions: return, defaults, scope, assert tests | ✅ Done |
-| 5 | Loops: for, while, break, continue | ⏭️ Next |
-| 6 | Lists | ⏳ Planned |
+| 5 | Loops: for, while, break, continue | ✅ Done |
+| 6 | Lists | ⏭️ Next |
 
 More topics follow: tuples, dictionaries, sets, comprehensions, `collections`, Big-O and hash-map patterns.
 
