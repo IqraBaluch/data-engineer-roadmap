@@ -23,7 +23,9 @@
 | 3 | Booleans, if / elif / else | ✅ Done |
 | 4 | Functions: return, defaults, scope, assert tests | ✅ Done |
 | 5 | Loops: for, while, break, continue | ✅ Done |
-| 6 | Lists | ⏭️ Next |
+| 6 | Lists part 1| ✅ Done  |
+| 5 | Review + Mini project 1| Cont|
+| 6 | Lists II + 2D lists + loop patterns| ⏭️ Next |
 
 More topics follow: tuples, dictionaries, sets, comprehensions, `collections`, Big-O and hash-map patterns.
 
