@@ -14,20 +14,26 @@
 
 <p align="center"><img src="assets/roadmap.svg" alt="Roadmap: Python, SQL, PySpark, Pipelines and Cloud, Projects"></p>
 
-## Python progress
+## Python 
 
-| # | Topic | Status |
-|:-:|-------|:------:|
-| 1 | Setup, print, variables, types, arithmetic | ✅ Done |
-| 2 | Strings: indexing, slicing, methods, f-strings | ✅ Done |
-| 3 | Booleans, if / elif / else | ✅ Done |
-| 4 | Functions: return, defaults, scope, assert tests | ✅ Done |
-| 5 | Loops: for, while, break, continue | ✅ Done |
-| 6 | Lists part 1| ✅ Done  |
-| 5 | Review + Mini project 1| ✅ Done |
-| 6 | Lists II + 2D lists + loop patterns| ⏭️ Next |
+Python progress
+#	Topic	Status
+1	Setup, print, variables, types, arithmetic	✅ Done
+2	Strings: indexing, slicing, methods, f-strings	✅ Done
+3	Booleans, if / elif / else	✅ Done
+4	Functions	✅ Done
+5	Loops: for, while, break, continue	✅ Done
+6	Lists	✅ Done
+7	Lists II: 2D lists, sorting, loop patterns	🔄 In progress
 
 More topics follow: tuples, dictionaries, sets, comprehensions, `collections`, Big-O and hash-map patterns.
+
+SQL 
+#	Topic	Status
+1	Query execution order, filtering, NULL logic	✅ Done
+2	Aggregation, GROUP BY, HAVING, conditional aggregationc	✅ Done
+
+More SQL topics follow: joins, aggregation, window functions and query tuning.
 
 ## What's inside every topic
 
