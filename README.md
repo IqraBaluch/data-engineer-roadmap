@@ -3,7 +3,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-fundamentals-3776AB?logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/Focus-Data%20Engineering-6d5dfc">
-  <img src="https://img.shields.io/badge/Topics%20done-2%20of%2018-2EA44F">
+  <img src="https://img.shields.io/badge/Topics%20done-6%20of%2018-2EA44F">
+  <img src="https://img.shields.io/badge/SQL-started-336791?logo=postgresql&logoColor=white">
   <img src="https://img.shields.io/badge/Status-active-5eead4">
 </p>
 
@@ -14,26 +15,28 @@
 
 <p align="center"><img src="assets/roadmap.svg" alt="Roadmap: Python, SQL, PySpark, Pipelines and Cloud, Projects"></p>
 
-## Python 
+## Python progress
 
-Python progress
-#	Topic	Status
-1	Setup, print, variables, types, arithmetic	✅ Done
-2	Strings: indexing, slicing, methods, f-strings	✅ Done
-3	Booleans, if / elif / else	✅ Done
-4	Functions	✅ Done
-5	Loops: for, while, break, continue	✅ Done
-6	Lists	✅ Done
-7	Lists II: 2D lists, sorting, loop patterns	🔄 In progress
+| # | Topic | Status |
+|:-:|-------|:------:|
+| 1 | Setup, print, variables, types, arithmetic | ✅ Done |
+| 2 | Strings: indexing, slicing, methods, f-strings | ✅ Done |
+| 3 | Booleans, if / elif / else | ✅ Done |
+| 4 | Functions | ✅ Done |
+| 5 | Loops: for, while, break, continue | ✅ Done |
+| 6 | Lists | ✅ Done |
+| 7 | Lists II: 2D lists, sorting, loop patterns | 🔄 In progress |
 
 More topics follow: tuples, dictionaries, sets, comprehensions, `collections`, Big-O and hash-map patterns.
 
-SQL 
-#	Topic	Status
-1	Query execution order, filtering, NULL logic	✅ Done
-2	Aggregation, GROUP BY, HAVING, conditional aggregationc	✅ Done
+## SQL progress
 
-More SQL topics follow: joins, aggregation, window functions and query tuning.
+| # | Topic | Status |
+|:-:|-------|:------:|
+| 1 | Query execution order, filtering, NULL logic | ✅ Done |
+| 2 | Aggregation, GROUP BY, HAVING, conditional aggregation | 🔄 In progress |
+
+More SQL topics follow: joins, window functions and query tuning.
 
 ## What's inside every topic
 
