@@ -18,5 +18,5 @@ INSERT INTO emp VALUES
 
 select department, count(*) as Employees 
 from emp 
-having department > 1
-group by department;
+GROUP BY department 
+HAVING count(*) > 1;
