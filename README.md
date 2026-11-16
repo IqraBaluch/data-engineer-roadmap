@@ -25,7 +25,9 @@
 | 4 | Functions | ✅ Done |
 | 5 | Loops: for, while, break, continue | ✅ Done |
 | 6 | Lists | ✅ Done |
-| 7 | Lists II: 2D lists, sorting, loop patterns | 🔄 In progress |
+| 7 | Lists II: 2D lists, sorting, loop patterns | ✅ Done |
+| 8 | Tuples, unpacking, enumerate, zip | 🔄 In progress |
+
 
 More topics follow: tuples, dictionaries, sets, comprehensions, `collections`, Big-O and hash-map patterns.
 
