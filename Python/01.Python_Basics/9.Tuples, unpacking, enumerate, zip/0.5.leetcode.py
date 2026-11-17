@@ -86,3 +86,51 @@ assert sortArrayByParity([1, 3, 5]) == [1, 3, 5]
 assert sortArrayByParity([1, 2]) == [2, 1]
 assert sortArrayByParity([2, 1]) == [2, 1]
 assert sortArrayByParity([5, 2, 7, 4]) == [2, 4, 5, 7]
+
+
+# lc # 14
+
+def longestCommonPrefix(strs):
+    """
+for i in range(len(strs[0])): go through each position of the first word (0, 1, 2, ...). The first word is our guide, because the prefix has to be inside it.
+for word in strs: at each position, look at every word, one at a time.
+if i == len(word) or word[i] != strs[0][i]: stop if this word has run out of letters (so it can’t match), or if this word’s letter at position i is different from the guide’s letter.
+return word[:i]: when we stop at position i, the positions before it all matched, so the answer is the letters before i.
+return strs[0]: if the loops finish and nothing ever differed, the whole first word is the common prefix.
+
+Trace for ["flower", "flow", "flight"]:
+
+i = 0: all three have f, so no stop. i = 1: all have l, so no stop.
+i = 2: flower has o and flow has o, but flight has i, which is different. So it returns "flight"[:2], which is "fl".
+      
+        """
+    for i in range(len(strs[0])):
+        for word in strs:
+            if i == len(word) or word[i] != strs[0][i]:
+                return word[:i]
+    return strs[0]
+
+assert longestCommonPrefix(["flower", "flow", "flight"]) == "fl"
+assert longestCommonPrefix(["dog", "racecar", "car"]) == ""
+assert longestCommonPrefix(["dog"]) == "dog"
+assert longestCommonPrefix(["flower", "flow"]) == "flow"
+
+
+
+
+def twoSum(nums,targer):
+
+    for i in range(len(nums)):
+        for j in range(i+1, len(nums)):
+            if nums[i] + nums[j] == targer:
+                return [i,j]
+print(twoSum([3, 2, 4], 6))
+
+
+
+assert twoSum([2, 7, 11, 15], 9) == [0, 1]
+assert twoSum([3, 2, 4], 6) == [1, 2]
+assert twoSum([3, 3], 6) == [0, 1]
+assert twoSum([1, 5, 3, 7], 10) == [2, 3]
+assert twoSum([-1, -2, -3, -4, -5], -8) == [2, 4]
+assert twoSum([0, 4, 3, 0], 0) == [0, 3]
