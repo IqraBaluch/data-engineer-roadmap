@@ -7,20 +7,16 @@ Normally you add them (VIII = 5+1+1+1 = 8). But when a smaller symbol comes befo
 
 
 
-data = "XXV"
+s = "MCMXCIV"
 values = {
 
     "I":1, "V":5, "X":10, "L": 50, "C": 100, "D":500 , "M":1000
 }
+total =0
 
-for s in range(len(data)):
-    total = 0
-    print(data[s])
-    current = values[data[s]]
-
-    if s+1 < len(data) and current < values[data[s+1]]:
-        total = total - current
-           
-        total = total + current
+for i in range(len(s)):
+    if i+1 < len(s) and values[s[i]] < values[s[i+1]]:
+        total -= values[s[i]]
+    else:
+        total += values[s[i]]
 print(total)
-
