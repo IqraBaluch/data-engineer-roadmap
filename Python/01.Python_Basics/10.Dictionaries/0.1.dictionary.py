@@ -38,6 +38,9 @@ and lets you choose what to get back if the key isn’t there:
 
 """
 
-print(ages.get("ali",0)) # prints value if available
+print(ages.get("ali")) # prints value if available
 print(ages.get("zoya")) # prints None if no value available
-print(ages.get("iqra",0)) #prints 0 as default if n
+print(ages.get("iqra",0)) #prints 0 as default if no value available, else will print the value of key
+
+
+

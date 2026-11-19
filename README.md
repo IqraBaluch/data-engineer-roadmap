@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-fundamentals-3776AB?logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/Focus-Data%20Engineering-6d5dfc">
-  <img src="https://img.shields.io/badge/Topics%20done-8%20of%2018-2EA44F">
+  <img src="https://img.shields.io/badge/Topics%20done-9%20of%2018-2EA44F">
   <img src="https://img.shields.io/badge/SQL-started-336791?logo=postgresql&logoColor=white">
   <img src="https://img.shields.io/badge/Status-active-5eead4">
 </p>
@@ -27,8 +27,9 @@
 | 6 | Lists | ✅ Done |
 | 7 | Lists II: 2D lists, sorting, loop patterns | ✅ Done |
 | 8 | Tuples, unpacking, enumerate, zip | ✅ Done |
+| 9 | Dictionaries: lookup, counting pattern, hash-map idea | ✅ Done |
 
-More topics follow: tuples, dictionaries, sets, comprehensions, `collections`, Big-O and hash-map patterns.
+More topics follow: sets, comprehensions, `collections`, Big-O and hash-map patterns.
 
 ## SQL progress
 

@@ -52,4 +52,4 @@ def twoSum(nums, target):
         partner = target - number
         if partner in seen:
             return [seen[partner], i]
-        seen[number] = i
+    seen[number] = i
