@@ -1,6 +1,5 @@
 # 387. First Unique Character in a String
-# Idea (my words): count every letter with a dictionary, then look at the counts
-#   and return the position of the first letter whose count is 1. If none, return -1.
+# Idea (my words): ______
 # Time: O(n) because Counter reads the string once and the loop goes through the dictionary once.
 # Space: O(1) because once a key is added a repeat only updates its value,
 #   and there are only 26 lowercase letters, so at most 26 keys.
