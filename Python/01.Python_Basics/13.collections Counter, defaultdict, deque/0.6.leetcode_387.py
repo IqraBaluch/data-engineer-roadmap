@@ -1,5 +1,4 @@
 # 387. First Unique Character in a String
-# Idea (my words): ______
 # Time: O(n) because Counter reads the string once and the loop goes through the dictionary once.
 # Space: O(1) because once a key is added a repeat only updates its value,
 #   and there are only 26 lowercase letters, so at most 26 keys.

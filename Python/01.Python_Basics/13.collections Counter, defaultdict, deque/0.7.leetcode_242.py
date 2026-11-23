@@ -1,5 +1,4 @@
 # 242. Valid Anagram
-# Idea (my words): ______
 # Time: O(n) because the more letters the string has, the more the loop has to go through.
 # Space: O(1) because once a key is added it only gets updated, and there are only 26 letters.
 # Level 3: solved alone, no hints. Accepted 56/56 on 22 Nov 2026 (manual version).

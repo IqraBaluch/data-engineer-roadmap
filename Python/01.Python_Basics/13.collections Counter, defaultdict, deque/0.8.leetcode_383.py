@@ -1,5 +1,4 @@
 # 383. Ransom Note
-# Idea (my words): ______
 # Rule: if the magazine has LESS than the note needs, return False.
 #   Return True only AFTER the loop, when no letter said "no".
 # Time: O(n) because each Counter reads its string once; the loop goes through
