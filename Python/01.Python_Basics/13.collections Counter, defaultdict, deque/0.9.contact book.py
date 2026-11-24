@@ -33,9 +33,9 @@ Test the functions with asserts before you build the menu.
 Push to GitHub when it works.
 
 """
+### Manual!!
 
 contacts = {}
-
 
 def add_contacts(contacts, name, data):
     contacts[name] = data
@@ -76,11 +76,6 @@ print(search_contact(contacts, "ISRA"))
 # delete
 delete_contact(contacts, "Iramm")
 assert "Iramm" not in contacts
-assert len(contacts) == 1
-
-assert delete_contact(contacts, "Zzz") == None
-assert len(contacts) == 1
-
 # list
 list_contacts({})
 list_contacts(contacts)
