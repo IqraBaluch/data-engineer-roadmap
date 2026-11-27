@@ -20,10 +20,11 @@ answer = prefix[3] #0-3 is day 4
 answer = prefix[3]
 print("Day 1 to 4: ",answer)
 
-
-# in other all cases prefix [left -1] - prefix[right-2]
-answer = prefix[5] - prefix[1]
+# in other all cases prefix [right -1] - prefix[left-2]
+answer = prefix[5] - prefix[3-2]
 print("Day 3 to 6: ",answer)
+
+
 
 answer = prefix[-1] - prefix[3] 
 print("Day 5 to 7: ",answer)
