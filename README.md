@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-fundamentals-3776AB?logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/Focus-Data%20Engineering-6d5dfc">
-  <img src="https://img.shields.io/badge/Topics%20done-13%20of%2018-2EA44F">
+  <img src="https://img.shields.io/badge/Topics%20done-14%20of%2018-2EA44F">
   <img src="https://img.shields.io/badge/SQL-started-336791?logo=postgresql&logoColor=white">
   <img src="https://img.shields.io/badge/Status-active-5eead4">
 </p>
@@ -32,8 +32,9 @@
 | 11 | Comprehensions, sorted(key=), lambda | ✅ Done |
 | 12 | collections: Counter, defaultdict, deque | ✅ Done |
 | 13 | Big-O, edge cases, dry-running, the 5-step method | ✅ Done |
+| 14 | Prefix sums and running totals | ✅ Done |
 
-More topics follow: prefix sums and hash-map patterns.
+More topics follow: 2D arrays and hash-map patterns.
 
 ## SQL progress
 
